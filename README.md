@@ -28,14 +28,14 @@ Querying for edges...
 Raw Edge Response (Full):
 The relevant relationships between entities with filename, line number, user input functions, potential vulnerabilities, and nodes are as follows:
 
-1. **Filename**: `todo.txt`
+1. **Filename**: `code.php`
    - **Function**: `WRITE`
    - **Source**: `FILETODO`
    - **Target**: `TODO`
    - **Description**: The 'write' method appends data to the 'fileTodo' object, which handles user input.
    - **Vulnerability**: This function is vulnerable to code injection attacks through user input without proper sanitization.
 
-2. **Filename**: `todo.txt`
+2. **Filename**: `code.php`
    - **Function**: `READ`
    - **Source**: `FILE`
    - **Target**: `FILETODO`
