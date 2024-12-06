@@ -258,7 +258,7 @@ if __name__ == "__main__":
     initialize_database()
 
     # Process the directory containing the source files
-    directory_path = "../badcode/"  # Update this to your directory
+    directory_path = "./badcode/"  # Update this to your directory
 
     for dirpath, dirnames, filenames in os.walk(directory_path):
       for filename in filenames:
